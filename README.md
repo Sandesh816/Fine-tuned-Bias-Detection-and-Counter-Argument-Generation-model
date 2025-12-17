@@ -1,13 +1,17 @@
 # Fine-tuned-Bias-Detection-and-Counter-Argument-Generation-model  
 
 This repository implements **a two-stage NLP pipeline**:  
-	1.	Bias Detection: A fine-tuned BERT model (>98% accuracy) classifies news articles as _left, center, or right_.  
-	2.	Counter-Argument Generation: A fine-tuned FLAN-T5 model generates a coherent counter-argument from the opposite political stance.  
+
+1. Bias Detection: A fine-tuned BERT model (>98% accuracy) classifies news articles as _left, center, or right_.
+2. Counter-Argument Generation: A fine-tuned FLAN-T5 model generates a coherent counter-argument from the opposite political stance.  
 
 **Setup**
 Clone the repository:
+
+'''bash
   git clone https://github.com/Sandesh816/Fine-tuned-Bias-Detection-and-Counter-Argument-Generation-model.git  
   cd Fine-tuned-Bias-Detection-and-Counter-Argument-Generation-model  
+'''
 
 **Running the Project**
 Open the main notebook directly in Colab (Recommended):  
